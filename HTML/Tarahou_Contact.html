@@ -16,6 +16,7 @@
             <p>Tout le jardin</p>
         </div>
     </header>
+    <br>
     <nav>
         <ul>
             <li><a href="index.html ">Accueil</a></li>
@@ -31,20 +32,26 @@
     <fieldset>
         <legend>Vos coordonnées</legend>
         <div class="box">
-            <form action=" destination.php " method="post ">
-                <label for="Votre nom ">Votre Nom*:</label><input type="text " name="nom " id="Votre nom "><br>
-                <label for="Votre prénom ">Votre prénom*:</label><input type="text " name="prénom " id="Votre prénom "><br>
-                <label for="Votre nom ">Sexe*:</label><input type="radio " name="sexef " id="Féminin ">Féminin
-                <input type="radio " name="sexe " id="Masculin ">Masculin<br>
-                <label for="date ">Date de naissance*:</label><input type="date " name="ddm " id="Votre nom "><br>
+            <form action="# " method="post ">
+                <label for="Votre nom ">Votre Nom*:</label>
+                <input type="text " name="nom " id="Votre nom "><br>
+                <label for="Votre prénom ">Votre prénom*:</label>
+                <input type="text " name="prénom " id="Votre prénom "><br>
+                <label>Sexe*:</label>
+                <input type="radio" name="sexe" id="Féminin" value="femme" class="form-check-input">Féminin
+                <input type="radio" name="sexe" id="Masculin" value="homme" class="form-check-input">Masculin
+                <br>
+                <label for="date">Date de naissance*:</label><input type="date" class="form-control" name="ddn " id="date "><br>
                 <label for="Votre nom ">Code postal*:</label><input type="text " name="nom " id="Votre nom "><br>
                 <label for="Votre nom ">Adresse:</label><input type="text " name="nom " id="Votre nom "><br>
                 <label for="Votre nom ">Ville:</label><input type="text " name="nom " id="Votre nom "><br>
-                <label for="Votre nom ">Email*:</label><input type="text " name="nom " id="Votre nom "><br>
-        </div>
+                <label for="Votre nom ">Email*:</label><input type="email" placeholder="dave.loper@afpa.fr"><br>
+
     </fieldset>
-    <div class="box">
+    </div>
+    <div class="demande">
         <fieldset>
+
             <legend>Votre demande</legend>
             <form action="destination.php " method="post "></form>
             <label for="Sujet ">Sujet*:</label>
@@ -56,7 +63,7 @@
             <label for="Votre nom ">Votre question*:</label><input type="text " name="nom " id="Votre nom "><br>
 
         </fieldset>
-        <input type="radio " value="* J 'accepte le traitement informatique de ce formulaire">* J'accepte le traitement informaique de ce formulaire<br>
+        <input type="checkbox">* J'accepte le traitement informatique de ce formulaire<br>
         <input type="submit" value="Envoyer">
         <input type="submit" value="Annuler">
     </div>

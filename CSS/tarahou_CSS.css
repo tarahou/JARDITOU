@@ -5,14 +5,14 @@ ul li a {
 
 li {
     display: inline;
-    margin-top: 10px;
 }
 
 nav {
     background-color: black;
-    height: 30px;
+    height: 60px;
     width: 1000px;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
+    padding-top: 10px;
 }
 
 body {
@@ -23,9 +23,8 @@ body {
 .colonnedroite {
     background-color: rgb(199, 197, 197);
     width: 400px;
-    height: 560px;
+    height: 550px;
     float: right;
-    margin-bottom: auto;
 }
 
 h2 b {
@@ -36,11 +35,19 @@ h2 b {
     margin-left: 500px;
     margin-top: 0px;
     font-weight: bold;
-    font-size: 18pt;
+    font-size: 20pt;
 }
 
 .box {
     font-size: 21px;
+}
+
+.demande {
+    font-size: 21px;
+}
+
+p {
+    font-size: 20px;
 }
 
 .img {
