@@ -1,17 +1,19 @@
-  //Déclarer 3 tableau
+  //Je Déclare 3 tableau
   let âge = 0;
-  let tabJ = new Array();
+  var tabJ = new Array();
   var tabA = new Array();
   var tabS = new Array();
+
   while (âge < 100) {
-      âge = window.prompt("Quelle est l 'âge de la personne ? : ");
+      âge = window.prompt("Entrez un âge , le comptage est arrété à la saisie d'un centenaire.");
+
 
       if (âge < 20 && âge != null) {
-          tabJ.push(age);
+          tabJ.push(âge);
           console.log(tabJ);
       } else if (âge > 40 && âge != null) {
-          tabM.push(âge);
-          console.log(tabA;
+          tabA.push(âge);
+          console.log(tabA);
       } else if (âge >= 20 || âge <= 40 && âge != null) {
           tabS.push(âge);
           console.log(tabS);
